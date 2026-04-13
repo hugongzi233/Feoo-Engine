@@ -65,6 +65,7 @@ namespace feoo {
     }
 
     void FeooApp::update(float deltaTime) {
+        imgui.get()->setDeltaTime(deltaTime);
         float offset = 1.5f;
         for (auto &obj: gameobjects) {
             obj.transform.rotation.z += deltaTime * offset;
@@ -128,7 +129,7 @@ namespace feoo {
     void FeooApp::loadGameObjects() {
         std::shared_ptr<FeooModel> cubeModel = createCubeModel(device, glm::vec3(0.0f, 0.0f, 0.0f));
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 5; i++) {
             auto gameObject = FeooGameObject::createGameObject();
             gameObject.model = cubeModel;
             gameObject.transform.translation = glm::vec3(static_cast<float>(i), 0.0f, 2.5f);

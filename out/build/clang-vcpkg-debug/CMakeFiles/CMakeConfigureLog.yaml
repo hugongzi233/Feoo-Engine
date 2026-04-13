@@ -97,7 +97,7 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 4/13/2026 2:22:13 PM.
+      Build started 4/13/2026 2:43:49 PM.
       
       Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -127,7 +127,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.56
+      Time Elapsed 00:00:00.37
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -9952,8 +9952,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-1q31il"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-1q31il"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -9968,35 +9968,35 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-1q31il'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71c20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63a2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:14 PM.
+        Build started 4/13/2026 2:43:50 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\cmTC_71c20.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1q31il\\cmTC_63a2a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\".
-          Creating directory "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1q31il\\Debug\\".
+          Creating directory "cmTC_63a2a.dir\\Debug\\cmTC_63a2a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild".
+          Creating "cmTC_63a2a.dir\\Debug\\cmTC_63a2a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_63a2a.dir\\Debug\\cmTC_63a2a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_71c20.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_63a2a.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\cmTC_71c20.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui/Debug/cmTC_71c20.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui/Debug/cmTC_71c20.lib"   /machine:x64 cmTC_71c20.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_71c20.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\cmTC_71c20.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1q31il\\Debug\\cmTC_63a2a.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-1q31il/Debug/cmTC_63a2a.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-1q31il/Debug/cmTC_63a2a.lib"   /machine:x64 cmTC_63a2a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_63a2a.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1q31il\\Debug\\cmTC_63a2a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild".
-          Touching "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\cmTC_71c20.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\cmTC_71c20.vcxproj" (default targets).
+          Deleting file "cmTC_63a2a.dir\\Debug\\cmTC_63a2a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_63a2a.dir\\Debug\\cmTC_63a2a.tlog\\cmTC_63a2a.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1q31il\\cmTC_63a2a.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.34
         
       exitCode: 0
   -
@@ -10060,8 +10060,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-zzjt1x"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-zzjt1x"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -10075,35 +10075,35 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-zzjt1x'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41a61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3c152.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:14 PM.
+        Build started 4/13/2026 2:43:50 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\cmTC_41a61.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\cmTC_3c152.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\".
-          Creating directory "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\Debug\\".
+          Creating directory "cmTC_3c152.dir\\Debug\\cmTC_3c152.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3c152.dir\\Debug\\cmTC_3c152.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3c152.dir\\Debug\\cmTC_3c152.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++14 /Fo"cmTC_41a61.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\feature_tests.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++14 /Fo"cmTC_3c152.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\feature_tests.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\cmTC_41a61.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr/Debug/cmTC_41a61.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr/Debug/cmTC_41a61.lib"   /machine:x64 cmTC_41a61.dir\\Debug\\feature_tests.obj
-          cmTC_41a61.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\cmTC_41a61.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\Debug\\cmTC_3c152.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-zzjt1x/Debug/cmTC_3c152.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-zzjt1x/Debug/cmTC_3c152.lib"   /machine:x64 cmTC_3c152.dir\\Debug\\feature_tests.obj
+          cmTC_3c152.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\Debug\\cmTC_3c152.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild".
-          Touching "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\cmTC_41a61.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\cmTC_41a61.vcxproj" (default targets).
+          Deleting file "cmTC_3c152.dir\\Debug\\cmTC_3c152.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3c152.dir\\Debug\\cmTC_3c152.tlog\\cmTC_3c152.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zzjt1x\\cmTC_3c152.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.36
         
       exitCode: 0
   -
@@ -10118,8 +10118,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-akgnfu"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-akgnfu"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -10133,35 +10133,35 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-akgnfu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07325.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8a20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:15 PM.
+        Build started 4/13/2026 2:43:51 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\cmTC_07325.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\cmTC_a8a20.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\".
-          Creating directory "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\Debug\\".
+          Creating directory "cmTC_a8a20.dir\\Debug\\cmTC_a8a20.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a8a20.dir\\Debug\\cmTC_a8a20.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a8a20.dir\\Debug\\cmTC_a8a20.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_07325.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\feature_tests.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_a8a20.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\feature_tests.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\cmTC_07325.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp/Debug/cmTC_07325.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp/Debug/cmTC_07325.lib"   /machine:x64 cmTC_07325.dir\\Debug\\feature_tests.obj
-          cmTC_07325.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\cmTC_07325.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\Debug\\cmTC_a8a20.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-akgnfu/Debug/cmTC_a8a20.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-akgnfu/Debug/cmTC_a8a20.lib"   /machine:x64 cmTC_a8a20.dir\\Debug\\feature_tests.obj
+          cmTC_a8a20.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\Debug\\cmTC_a8a20.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild".
-          Touching "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\cmTC_07325.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\cmTC_07325.vcxproj" (default targets).
+          Deleting file "cmTC_a8a20.dir\\Debug\\cmTC_a8a20.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a8a20.dir\\Debug\\cmTC_a8a20.tlog\\cmTC_a8a20.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-akgnfu\\cmTC_a8a20.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.35
         
       exitCode: 0
   -
@@ -12671,8 +12671,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-oq0c0j"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-oq0c0j"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12686,35 +12686,35 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-oq0c0j'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1d08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6251.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:16 PM.
+        Build started 4/13/2026 2:43:52 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\cmTC_e6251.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\Debug\\".
-          Creating directory "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\Debug\\".
+          Creating directory "cmTC_e6251.dir\\Debug\\cmTC_e6251.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e6251.dir\\Debug\\cmTC_e6251.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e6251.dir\\Debug\\cmTC_e6251.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_c1d08.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx"
-        D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_e6251.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\src.cxx"
+        D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\cmTC_e6251.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\cmTC_e6251.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\cmTC_e6251.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj]
+          D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oq0c0j\\cmTC_e6251.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.21
+        Time Elapsed 00:00:00.22
         
       exitCode: 1
   -
@@ -12732,8 +12732,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-q3exr2"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-q3exr2"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12747,32 +12747,32 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-q3exr2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61024.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2ca1a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:16 PM.
+        Build started 4/13/2026 2:43:52 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\cmTC_2ca1a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\Debug\\".
-          Creating directory "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\Debug\\".
+          Creating directory "cmTC_2ca1a.dir\\Debug\\cmTC_2ca1a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2ca1a.dir\\Debug\\cmTC_2ca1a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2ca1a.dir\\Debug\\cmTC_2ca1a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_61024.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_2ca1a.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\Debug\\cmTC_61024.exe" /INCREMENTAL pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb/Debug/cmTC_61024.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb/Debug/cmTC_61024.lib"   /machine:x64 cmTC_61024.dir\\Debug\\CheckFunctionExists.obj
-        lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\Debug\\cmTC_2ca1a.exe" /INCREMENTAL pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-q3exr2/Debug/cmTC_2ca1a.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-q3exr2/Debug/cmTC_2ca1a.lib"   /machine:x64 cmTC_2ca1a.dir\\Debug\\CheckFunctionExists.obj
+        lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\cmTC_2ca1a.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\cmTC_2ca1a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\cmTC_2ca1a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj]
+          lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-q3exr2\\cmTC_2ca1a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -12795,8 +12795,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-lanrg9"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-lanrg9"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12810,37 +12810,37 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-lanrg9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f14c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08d8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:17 PM.
+        Build started 4/13/2026 2:43:53 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\cmTC_08d8a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\Debug\\".
-          Creating directory "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\Debug\\".
+          Creating directory "cmTC_08d8a.dir\\Debug\\cmTC_08d8a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_08d8a.dir\\Debug\\cmTC_08d8a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_08d8a.dir\\Debug\\cmTC_08d8a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_f14c3.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_08d8a.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\Debug\\cmTC_f14c3.exe" /INCREMENTAL pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7/Debug/cmTC_f14c3.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7/Debug/cmTC_f14c3.lib"   /machine:x64 cmTC_f14c3.dir\\Debug\\CheckFunctionExists.obj
-        lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\Debug\\cmTC_08d8a.exe" /INCREMENTAL pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-lanrg9/Debug/cmTC_08d8a.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-lanrg9/Debug/cmTC_08d8a.lib"   /machine:x64 cmTC_08d8a.dir\\Debug\\CheckFunctionExists.obj
+        lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\cmTC_08d8a.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\cmTC_08d8a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\cmTC_08d8a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj]
+          lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-lanrg9\\cmTC_08d8a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.29
+        Time Elapsed 00:00:00.31
         
       exitCode: 1
   -
@@ -13466,7 +13466,7 @@ events:
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:22:18 PM.
+        Build started 4/13/2026 2:43:53 PM.
         
         Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
         Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
@@ -13538,7 +13538,7 @@ events:
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.99
+        Time Elapsed 00:00:00.96
         
       exitCode: 0
 ...

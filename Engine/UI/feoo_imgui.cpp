@@ -100,7 +100,6 @@ namespace feoo {
     void FeooImgui::setupCustomFont() {
         ImGuiIO &io = ImGui::GetIO();
 
-        // Prefer the project's bundled font: Engine/Resource/Fonts/AlibabaPuHuiTi-3-55-Regular.ttf
         const std::string fontFileName = "AlibabaPuHuiTi-3-55-Regular.ttf";
         const std::filesystem::path relativeFontPath = "Engine/Resource/Fonts";
 
@@ -234,7 +233,7 @@ namespace feoo {
         // 1. Debug window
         ImGui::Begin("Debug Info");
         ImGui::Text("FPS: %.1f (%.3f ms/frame)", ImGui::GetIO().Framerate, 1000.0f / ImGui::GetIO().Framerate);
-        ImGui::Text("Triangles: %d", triangleCount);
+        ImGui::Text("DeltaTime: %.3f", deltaTime);
         ImGui::Text("Draw Calls: %d", drawCallCount);
         ImGui::End();
 
@@ -270,5 +269,9 @@ namespace feoo {
 
     glm::vec3 FeooImgui::getMainColor() {
         return glm::vec3(mainColor[0], mainColor[1], mainColor[2]);
+    }
+
+    void FeooImgui::setDeltaTime(float deltaTime){
+        this->deltaTime = deltaTime;
     }
 }

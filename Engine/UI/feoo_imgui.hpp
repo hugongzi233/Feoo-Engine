@@ -42,6 +42,8 @@ namespace feoo {
 
         glm::vec3 getMainColor();
 
+        void setDeltaTime(float deltaTime);
+
     private:
         void createDescriptorPool(VkDevice device);
 
@@ -49,7 +51,7 @@ namespace feoo {
         VkDevice device_ = VK_NULL_HANDLE;
 
         // Example UI state exposed inside the ImGui wrapper
-        int triangleCount = 2;
+        float deltaTime = 0.0f;
         int drawCallCount = 1;
         float exposure = 1.0f;
         float mainColor[3] = {0.1f, 0.1f, 0.1f};

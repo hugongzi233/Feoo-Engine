@@ -6,14 +6,54 @@
 namespace feoo {
     void KeyboardMovementController::moveInPlaneXZ(
         GLFWwindow *window, float dt, FeooGameObject &gameObject) {
-        glm::vec3 rotate{0};
-        if (glfwGetKey(window, keys.lookRight) == GLFW_PRESS) rotate.y += 1.f;
-        if (glfwGetKey(window, keys.lookLeft) == GLFW_PRESS) rotate.y -= 1.f;
-        if (glfwGetKey(window, keys.lookUp) == GLFW_PRESS) rotate.x += 1.f;
-        if (glfwGetKey(window, keys.lookDown) == GLFW_PRESS) rotate.x -= 1.f;
+        if (!initialCaptureDone) {
+            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+            if (glfwRawMouseMotionSupported()) {
+                glfwSetInputMode(window, GLFW_RAW_MOUSE_MOTION, GLFW_TRUE);
+            }
+            initialCaptureDone = true;
+            cursorCaptured = true;
+            hasLastMousePosition = false;
+        }
 
-        if (glm::dot(rotate, rotate) > std::numeric_limits<float>::epsilon()) {
-            gameObject.transform.rotation += lookSpeed * dt * glm::normalize(rotate);
+        const bool escPressed = glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS;
+        if (escPressed && !escWasPressed && cursorCaptured) {
+            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+            if (glfwRawMouseMotionSupported()) {
+                glfwSetInputMode(window, GLFW_RAW_MOUSE_MOTION, GLFW_FALSE);
+            }
+            cursorCaptured = false;
+            hasLastMousePosition = false;
+        }
+        escWasPressed = escPressed;
+
+        const bool leftMousePressed = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS;
+        if (leftMousePressed && !leftMouseWasPressed && !cursorCaptured) {
+            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+            if (glfwRawMouseMotionSupported()) {
+                glfwSetInputMode(window, GLFW_RAW_MOUSE_MOTION, GLFW_TRUE);
+            }
+            cursorCaptured = true;
+            hasLastMousePosition = false;
+        }
+        leftMouseWasPressed = leftMousePressed;
+
+        if (cursorCaptured) {
+            double mouseX = 0.0;
+            double mouseY = 0.0;
+            glfwGetCursorPos(window, &mouseX, &mouseY);
+
+            if (hasLastMousePosition) {
+                const float deltaX = static_cast<float>(mouseX - lastMouseX);
+                const float deltaY = static_cast<float>(mouseY - lastMouseY);
+
+                gameObject.transform.rotation.y += lookSpeed * deltaX;
+                gameObject.transform.rotation.x -= lookSpeed * deltaY;
+            }
+
+            lastMouseX = mouseX;
+            lastMouseY = mouseY;
+            hasLastMousePosition = true;
         }
 
         // limit pitch values between about +/- 85ish degrees
