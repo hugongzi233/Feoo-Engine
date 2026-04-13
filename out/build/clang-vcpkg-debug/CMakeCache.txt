@@ -71,7 +71,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:UNINITIALIZED=ON
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/GolaGameEngine
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/FeooGameEngine
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/lld-link.exe
@@ -112,7 +112,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=GolaGameEngine
+CMAKE_PROJECT_NAME:STATIC=FeooGameEngine
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -191,6 +191,15 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/dream/scoop/apps/vcpkg/current/scripts/bu
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+FeooGameEngine_BINARY_DIR:STATIC=D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug
+
+//Value Computed by CMake
+FeooGameEngine_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+FeooGameEngine_SOURCE_DIR:STATIC=D:/CppProject/GolaGameEngine
+
 //Enable interprocedural optimization in release-like builds
 GOLA_ENABLE_LTO:BOOL=ON
 
@@ -199,15 +208,6 @@ GOLA_ENABLE_SANITIZERS:BOOL=OFF
 
 //Enable strict compiler warnings
 GOLA_ENABLE_WARNINGS:BOOL=ON
-
-//Value Computed by CMake
-GolaGameEngine_BINARY_DIR:STATIC=D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug
-
-//Value Computed by CMake
-GolaGameEngine_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-GolaGameEngine_SOURCE_DIR:STATIC=D:/CppProject/GolaGameEngine
 
 //Automatically copy dependencies into the output directory for
 // executables.

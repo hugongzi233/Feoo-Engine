@@ -2,10 +2,10 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Debug GolaGameEngine (clang-cl)",
+			"name": "Debug FeooGameEngine (clang-cl)",
 			"type": "cppvsdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/GolaGameEngine.exe",
+			"program": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/FeooGameEngine.exe",
 			"args": [],
 			"cwd": "${workspaceFolder}",
 			"console": "integratedTerminal",

@@ -178,9 +178,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.vcxproj">
-      <Project>{F16CCCF3-88B7-3B26-BE0C-9882E1E7438C}</Project>
-      <Name>GolaGameEngine</Name>
+    <ProjectReference Include="D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.vcxproj">
+      <Project>{138E515C-3B65-3CC4-914F-6391EC48B2CA}</Project>
+      <Name>FeooGameEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

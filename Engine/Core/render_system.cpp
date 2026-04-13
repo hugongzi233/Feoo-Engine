@@ -11,23 +11,23 @@
 #include <cassert>
 #include <stdexcept>
 
-#include "gola_camera.hpp"
+#include "feoo_camera.hpp"
 
-namespace gola {
+namespace feoo {
     struct SimplePushConstantData {
         glm::mat4 transform{1.0f};
         alignas(16) glm::vec3 color;
     };
 
     RenderSystem::RenderSystem(
-        GolaDevice &device, VkRenderPass renderPass, GolaImgui *imguiPtr)
-        : golaDevice{device}, imgui{imguiPtr} {
+        FeooDevice &device, VkRenderPass renderPass, FeooImgui *imguiPtr)
+        : feooDevice{device}, imgui{imguiPtr} {
         createPipelineLayout();
         createPipeline(renderPass);
     }
 
     RenderSystem::~RenderSystem() {
-        vkDestroyPipelineLayout(golaDevice.device(), pipelineLayout, nullptr);
+        vkDestroyPipelineLayout(feooDevice.device(), pipelineLayout, nullptr);
     }
 
     void RenderSystem::createPipelineLayout() {
@@ -42,30 +42,30 @@ namespace gola {
         pipelineLayoutInfo.pSetLayouts = nullptr;
         pipelineLayoutInfo.pushConstantRangeCount = 1;
         pipelineLayoutInfo.pPushConstantRanges = &pushConstantRange;
-        if (vkCreatePipelineLayout(golaDevice.device(), &pipelineLayoutInfo, nullptr, &pipelineLayout) !=
+        if (vkCreatePipelineLayout(feooDevice.device(), &pipelineLayoutInfo, nullptr, &pipelineLayout) !=
             VK_SUCCESS) {
             throw std::runtime_error("failed to create pipeline layout!");
         }
     }
 
-    void gola::RenderSystem::createPipeline(VkRenderPass renderPass) {
+    void feoo::RenderSystem::createPipeline(VkRenderPass renderPass) {
         assert(pipelineLayout != nullptr && "Cannot create pipeline before pipeline layout");
 
         PipelineConfigInfo pipelineConfig{};
-        GolaPipeline::defaultPipelineConfigInfo(pipelineConfig);
+        FeooPipeline::defaultPipelineConfigInfo(pipelineConfig);
         pipelineConfig.renderPass = renderPass;
         pipelineConfig.pipelineLayout = pipelineLayout;
-        golaPipeline = std::make_unique<GolaPipeline>(
-            golaDevice,
+        feooPipeline = std::make_unique<FeooPipeline>(
+            feooDevice,
             "Engine/shaders/simple_shader.vert.spv",
             "Engine/shaders/simple_shader.frag.spv",
             pipelineConfig);
     }
 
-    void gola::RenderSystem::renderGameObjects(
+    void feoo::RenderSystem::renderGameObjects(
         VkCommandBuffer commandBuffer,
-        std::vector<GolaGameObject> &gameObjects, const GolaCamera &camera) {
-        golaPipeline->bind(commandBuffer);
+        std::vector<FeooGameObject> &gameObjects, const FeooCamera &camera) {
+        feooPipeline->bind(commandBuffer);
 
         auto projectionView = camera.getProjection() * camera.getView();
 

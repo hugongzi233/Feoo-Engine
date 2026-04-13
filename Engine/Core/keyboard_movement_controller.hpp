@@ -1,9 +1,9 @@
 #pragma once
 
-#include "gola_game_object.hpp"
-#include "../Window/gola_window.hpp"
+#include "feoo_game_object.hpp"
+#include "../Window/feoo_window.hpp"
 
-namespace gola {
+namespace feoo {
     class KeyboardMovementController {
     public:
         struct KeyMappings {
@@ -19,10 +19,10 @@ namespace gola {
             int lookDown = GLFW_KEY_DOWN;
         };
 
-        void moveInPlaneXZ(GLFWwindow *window, float dt, GolaGameObject &gameObject);
+        void moveInPlaneXZ(GLFWwindow *window, float dt, FeooGameObject &gameObject);
 
         KeyMappings keys{};
         float moveSpeed{3.f};
         float lookSpeed{1.5f};
     };
-} // namespace gola
+} // namespace feoo

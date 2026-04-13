@@ -36,7 +36,7 @@
     {
       "label": "run-debug-exe",
       "type": "shell",
-      "command": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/GolaGameEngine.exe",
+      "command": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/FeooGameEngine.exe",
       "dependsOn": [
         "build-debug"
       ],

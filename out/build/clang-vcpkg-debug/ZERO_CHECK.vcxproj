@@ -117,7 +117,7 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/GolaGameEngine.sln
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/FeooGameEngine.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,7 +131,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/GolaGameEngine.sln
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/FeooGameEngine.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,7 +145,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/GolaGameEngine.sln
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/FeooGameEngine.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,7 +159,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/GolaGameEngine.sln
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/FeooGameEngine.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

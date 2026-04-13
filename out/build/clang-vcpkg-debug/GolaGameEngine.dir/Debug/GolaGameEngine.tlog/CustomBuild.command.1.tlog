@@ -1,6 +1,6 @@
 ^D:\CPPPROJECT\GOLAGAMEENGINE\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/FeooGameEngine -BD:/CppProject/FeooGameEngine/out/build/clang-vcpkg-debug --check-stamp-file D:/CppProject/FeooGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

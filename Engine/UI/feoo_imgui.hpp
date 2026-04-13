@@ -1,0 +1,59 @@
+﻿//
+// Created by dream on 2025/11/25.
+//
+#pragma once
+
+#include "imgui.h"
+#include <glm/vec3.hpp>
+
+#include "../Core/feoo_device.hpp"
+#include "../Core/feoo_swap_chain.hpp"
+#include "../Window/feoo_window.hpp"
+
+namespace feoo {
+    class FeooImgui {
+    public:
+        FeooImgui() = default;
+
+        ~FeooImgui();
+
+        FeooImgui(const FeooImgui &) = delete;
+
+        FeooImgui &operator=(const FeooImgui &) = delete;
+
+        // Initialize ImGui for Vulkan+GLFW. Must be called after swapchain (render pass) exists.
+        void init(FeooDevice &device, FeooSwapChain &swapChain, GLFWwindow *window);
+
+        // Start a new ImGui frame
+        void newFrame();
+
+        void setupCustomFont();
+
+        void setupCustomStyle();
+
+        // Populate UI widgets (user-provided UI lives here)
+        void buildUI();
+
+        // Record ImGui draw commands into the currently recording command buffer
+        void render(VkCommandBuffer commandBuffer);
+
+        // Cleanup ImGui resources
+        void cleanup();
+
+        glm::vec3 getMainColor();
+
+    private:
+        void createDescriptorPool(VkDevice device);
+
+        VkDescriptorPool imguiDescriptorPool = VK_NULL_HANDLE;
+        VkDevice device_ = VK_NULL_HANDLE;
+
+        // Example UI state exposed inside the ImGui wrapper
+        int triangleCount = 2;
+        int drawCallCount = 1;
+        float exposure = 1.0f;
+        float mainColor[3] = {0.1f, 0.1f, 0.1f};
+        bool vsyncEnabled = true;
+        bool showPerformanceWindow = true;
+    };
+}

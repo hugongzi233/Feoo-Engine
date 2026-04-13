@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\main.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_device.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_device.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_model.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_pipeline.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_pipeline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_swap_chain.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_swap_chain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Window\gola_window.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Window\feoo_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\gola_app.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\feoo_app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_renderer.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\UI\gola_imgui.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\UI\feoo_imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\render_system.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\render_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_camera.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\keyboard_movement_controller.cpp">
+    <ClCompile Include="D:\CppProject\FeooGameEngine\Engine\Core\keyboard_movement_controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\CppProject\GolaGameEngine\Engine\Core\gola_game_object.hpp">
+    <ClInclude Include="D:\CppProject\FeooGameEngine\Engine\Core\feoo_game_object.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CppProject\GolaGameEngine\CMakeLists.txt" />
+    <CustomBuild Include="D:\CppProject\FeooGameEngine\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

@@ -6,10 +6,10 @@
 	"config" : "Debug",
 	"cxx-modules" : {},
 	"database-info" : null,
-	"dir-cur-bld" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
-	"dir-cur-src" : "D:/CppProject/GolaGameEngine",
-	"dir-top-bld" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
-	"dir-top-src" : "D:/CppProject/GolaGameEngine",
+	"dir-cur-bld" : "D:/CppProject/FeooGameEngine/.cmake-intellisense-gnu",
+	"dir-cur-src" : "D:/CppProject/FeooGameEngine",
+	"dir-top-bld" : "D:/CppProject/FeooGameEngine/.cmake-intellisense-gnu",
+	"dir-top-src" : "D:/CppProject/FeooGameEngine",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : 
@@ -18,68 +18,68 @@
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir",
+	"module-dir" : "D:/CppProject/FeooGameEngine/.cmake-intellisense-gnu/CMakeFiles/FeooGameEngine.dir",
 	"sources" : 
 	{
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_camera.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_camera.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_camera.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_camera.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_device.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_device.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_device.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_device.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_model.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_model.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_model.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_model.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_pipeline.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_pipeline.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_pipeline.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_pipeline.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_renderer.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_renderer.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_renderer.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_renderer.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_swap_chain.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/feoo_swap_chain.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_swap_chain.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/feoo_swap_chain.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/keyboard_movement_controller.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/keyboard_movement_controller.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/keyboard_movement_controller.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/keyboard_movement_controller.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Core/render_system.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Core/render_system.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/render_system.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Core/render_system.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/UI/gola_imgui.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/UI/feoo_imgui.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/UI/gola_imgui.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/UI/feoo_imgui.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/Window/gola_window.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/Window/feoo_window.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/Window/gola_window.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/Window/feoo_window.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/Engine/gola_app.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/Engine/feoo_app.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/Engine/gola_app.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/Engine/feoo_app.cpp"
 		},
-		"CMakeFiles/GolaGameEngine.dir/main.cpp.obj" : 
+		"CMakeFiles/FeooGameEngine.dir/main.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "D:/CppProject/GolaGameEngine/main.cpp"
+			"source" : "D:/CppProject/FeooGameEngine/main.cpp"
 		}
 	}
 }

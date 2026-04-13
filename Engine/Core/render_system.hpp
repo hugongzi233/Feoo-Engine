@@ -1,22 +1,22 @@
 #pragma once
 
-#include "gola_device.hpp"
-#include "gola_game_object.hpp"
-#include "gola_pipeline.hpp"
+#include "feoo_device.hpp"
+#include "feoo_game_object.hpp"
+#include "feoo_pipeline.hpp"
 
 // std
 #include <memory>
 #include <vector>
 
-#include "../UI/gola_imgui.hpp"
+#include "../UI/feoo_imgui.hpp"
 
-namespace gola {
-    class GolaCamera;
+namespace feoo {
+    class FeooCamera;
 
     class RenderSystem {
     public:
         RenderSystem(
-            GolaDevice &device, VkRenderPass renderPass, GolaImgui *imguiPtr);
+            FeooDevice &device, VkRenderPass renderPass, FeooImgui *imguiPtr);
 
         ~RenderSystem();
 
@@ -26,8 +26,8 @@ namespace gola {
 
         void renderGameObjects(
             VkCommandBuffer commandBuffer,
-            std::vector<GolaGameObject> &gameObjects,
-            const GolaCamera &camera);
+            std::vector<FeooGameObject> &gameObjects,
+            const FeooCamera &camera);
 
         void renderImgui(VkCommandBuffer commandBuffer);
 
@@ -36,10 +36,10 @@ namespace gola {
 
         void createPipeline(VkRenderPass renderPass);
 
-        GolaDevice &golaDevice;
+        FeooDevice &feooDevice;
 
-        std::unique_ptr<GolaPipeline> golaPipeline;
+        std::unique_ptr<FeooPipeline> feooPipeline;
         VkPipelineLayout pipelineLayout;
-        GolaImgui *imgui = nullptr;
+        FeooImgui *imgui = nullptr;
     };
 }

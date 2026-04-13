@@ -1,4 +1,4 @@
-﻿#include "Engine/gola_app.hpp"
+﻿#include "Engine/feoo_app.hpp"
 
 #include <cstdlib>
 #include <iostream>
@@ -10,7 +10,7 @@
 int main() {
 	std::cout.setf(std::ios::unitbuf);
 	std::cin.setf(std::ios::unitbuf);
-	gola::GolaApp app{};
+	feoo::FeooApp app{};
 	try {
 		std::println("Application started.");
 		app.run();

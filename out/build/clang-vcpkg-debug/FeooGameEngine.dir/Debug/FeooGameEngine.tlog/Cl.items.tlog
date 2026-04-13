@@ -1,0 +1,12 @@
+D:\CppProject\GolaGameEngine\main.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\main.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_device.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_device.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_model.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_model.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_pipeline.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_pipeline.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_swap_chain.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_swap_chain.obj
+D:\CppProject\GolaGameEngine\Engine\Window\feoo_window.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_window.obj
+D:\CppProject\GolaGameEngine\Engine\feoo_app.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_app.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_renderer.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_renderer.obj
+D:\CppProject\GolaGameEngine\Engine\UI\feoo_imgui.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_imgui.obj
+D:\CppProject\GolaGameEngine\Engine\Core\render_system.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\render_system.obj
+D:\CppProject\GolaGameEngine\Engine\Core\feoo_camera.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_camera.obj
+D:\CppProject\GolaGameEngine\Engine\Core\keyboard_movement_controller.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\keyboard_movement_controller.obj

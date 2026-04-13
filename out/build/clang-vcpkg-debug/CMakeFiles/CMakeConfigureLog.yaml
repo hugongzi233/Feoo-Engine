@@ -97,7 +97,7 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 4/13/2026 2:12:14 PM.
+      Build started 4/13/2026 2:22:13 PM.
       
       Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -127,7 +127,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.36
+      Time Elapsed 00:00:00.56
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -7792,9 +7792,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -7852,9 +7852,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -7912,9 +7912,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.exe"
@@ -8087,15 +8087,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc"
@@ -8267,15 +8267,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/rc"
@@ -8447,15 +8447,15 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
-      - "C:/Program Files/GolaGameEngine/bin/rc.com"
-      - "C:/Program Files/GolaGameEngine/bin/rc.exe"
-      - "C:/Program Files/GolaGameEngine/bin/rc"
-      - "C:/Program Files/GolaGameEngine/sbin/rc.com"
-      - "C:/Program Files/GolaGameEngine/sbin/rc.exe"
-      - "C:/Program Files/GolaGameEngine/sbin/rc"
-      - "C:/Program Files/GolaGameEngine/rc.com"
-      - "C:/Program Files/GolaGameEngine/rc.exe"
-      - "C:/Program Files/GolaGameEngine/rc"
+      - "C:/Program Files/FeooGameEngine/bin/rc.com"
+      - "C:/Program Files/FeooGameEngine/bin/rc.exe"
+      - "C:/Program Files/FeooGameEngine/bin/rc"
+      - "C:/Program Files/FeooGameEngine/sbin/rc.com"
+      - "C:/Program Files/FeooGameEngine/sbin/rc.exe"
+      - "C:/Program Files/FeooGameEngine/sbin/rc"
+      - "C:/Program Files/FeooGameEngine/rc.com"
+      - "C:/Program Files/FeooGameEngine/rc.exe"
+      - "C:/Program Files/FeooGameEngine/rc"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -8506,12 +8506,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find-v1"
@@ -8591,9 +8591,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -8651,9 +8651,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -8711,9 +8711,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
@@ -8886,15 +8886,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc"
@@ -9066,15 +9066,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc"
@@ -9219,12 +9219,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find-v1"
@@ -9308,9 +9308,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -9368,9 +9368,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -9428,9 +9428,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
@@ -9603,15 +9603,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/llvm-rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc"
@@ -9783,15 +9783,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/llvm-rc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/llvm-rc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/llvm-rc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/llvm-rc"
@@ -9936,12 +9936,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "try_compile-v1"
@@ -9952,8 +9952,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-mv59jt"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-mv59jt"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -9968,35 +9968,35 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-mv59jt'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e89f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71c20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:15 PM.
+        Build started 4/13/2026 2:22:14 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mv59jt\\cmTC_1e89f.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\cmTC_71c20.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mv59jt\\Debug\\".
-          Creating directory "cmTC_1e89f.dir\\Debug\\cmTC_1e89f.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\".
+          Creating directory "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1e89f.dir\\Debug\\cmTC_1e89f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1e89f.dir\\Debug\\cmTC_1e89f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_1e89f.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_71c20.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mv59jt\\Debug\\cmTC_1e89f.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-mv59jt/Debug/cmTC_1e89f.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-mv59jt/Debug/cmTC_1e89f.lib"   /machine:x64 cmTC_1e89f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1e89f.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mv59jt\\Debug\\cmTC_1e89f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\cmTC_71c20.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui/Debug/cmTC_71c20.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-14v6ui/Debug/cmTC_71c20.lib"   /machine:x64 cmTC_71c20.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_71c20.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\Debug\\cmTC_71c20.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_1e89f.dir\\Debug\\cmTC_1e89f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1e89f.dir\\Debug\\cmTC_1e89f.tlog\\cmTC_1e89f.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mv59jt\\cmTC_1e89f.vcxproj" (default targets).
+          Deleting file "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\unsuccessfulbuild".
+          Touching "cmTC_71c20.dir\\Debug\\cmTC_71c20.tlog\\cmTC_71c20.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-14v6ui\\cmTC_71c20.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.36
         
       exitCode: 0
   -
@@ -10060,8 +10060,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-6k200a"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-6k200a"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -10075,35 +10075,35 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-6k200a'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_79de7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41a61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:16 PM.
+        Build started 4/13/2026 2:22:14 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\cmTC_79de7.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\cmTC_41a61.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\Debug\\".
-          Creating directory "cmTC_79de7.dir\\Debug\\cmTC_79de7.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\".
+          Creating directory "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_79de7.dir\\Debug\\cmTC_79de7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_79de7.dir\\Debug\\cmTC_79de7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++14 /Fo"cmTC_79de7.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\feature_tests.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++14 /Fo"cmTC_41a61.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\feature_tests.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\Debug\\cmTC_79de7.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-6k200a/Debug/cmTC_79de7.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-6k200a/Debug/cmTC_79de7.lib"   /machine:x64 cmTC_79de7.dir\\Debug\\feature_tests.obj
-          cmTC_79de7.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\Debug\\cmTC_79de7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\cmTC_41a61.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr/Debug/cmTC_41a61.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dfi9xr/Debug/cmTC_41a61.lib"   /machine:x64 cmTC_41a61.dir\\Debug\\feature_tests.obj
+          cmTC_41a61.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\Debug\\cmTC_41a61.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_79de7.dir\\Debug\\cmTC_79de7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_79de7.dir\\Debug\\cmTC_79de7.tlog\\cmTC_79de7.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k200a\\cmTC_79de7.vcxproj" (default targets).
+          Deleting file "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\unsuccessfulbuild".
+          Touching "cmTC_41a61.dir\\Debug\\cmTC_41a61.tlog\\cmTC_41a61.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dfi9xr\\cmTC_41a61.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.35
         
       exitCode: 0
   -
@@ -10118,8 +10118,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-f9lm02"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-f9lm02"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -10133,35 +10133,35 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-f9lm02'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d51c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07325.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:16 PM.
+        Build started 4/13/2026 2:22:15 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\cmTC_2d51c.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\cmTC_07325.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\Debug\\".
-          Creating directory "cmTC_2d51c.dir\\Debug\\cmTC_2d51c.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\".
+          Creating directory "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2d51c.dir\\Debug\\cmTC_2d51c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2d51c.dir\\Debug\\cmTC_2d51c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_2d51c.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\feature_tests.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /Fo"cmTC_07325.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\feature_tests.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\Debug\\cmTC_2d51c.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-f9lm02/Debug/cmTC_2d51c.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-f9lm02/Debug/cmTC_2d51c.lib"   /machine:x64 cmTC_2d51c.dir\\Debug\\feature_tests.obj
-          cmTC_2d51c.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\Debug\\cmTC_2d51c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\cmTC_07325.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp/Debug/cmTC_07325.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-r8lwcp/Debug/cmTC_07325.lib"   /machine:x64 cmTC_07325.dir\\Debug\\feature_tests.obj
+          cmTC_07325.vcxproj -> D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\Debug\\cmTC_07325.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2d51c.dir\\Debug\\cmTC_2d51c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2d51c.dir\\Debug\\cmTC_2d51c.tlog\\cmTC_2d51c.lastbuildstate".
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-f9lm02\\cmTC_2d51c.vcxproj" (default targets).
+          Deleting file "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\unsuccessfulbuild".
+          Touching "cmTC_07325.dir\\Debug\\cmTC_07325.tlog\\cmTC_07325.lastbuildstate".
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8lwcp\\cmTC_07325.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -10241,9 +10241,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -10301,9 +10301,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -10361,9 +10361,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.exe"
@@ -10536,15 +10536,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/pwsh"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh"
@@ -10716,15 +10716,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/pwsh"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/pwsh.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/pwsh.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/pwsh"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/pwsh.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/pwsh.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/pwsh"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/pwsh"
@@ -10797,12 +10797,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find-v1"
@@ -10876,8 +10876,8 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files (x86)/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/include/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/include/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/include/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include/"
@@ -10930,8 +10930,8 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files (x86)/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/include/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/include/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/include/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include/"
@@ -10984,8 +10984,8 @@ events:
       - "C:/Program Files (x86)/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/include/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/include/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/include/vulkan/vulkan.h"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/vulkan/vulkan.h"
@@ -11039,8 +11039,8 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files (x86)/vulkan/vulkan.h"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/vulkan/vulkan.h"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/vulkan/vulkan.h"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/include/vulkan/vulkan.h"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/vulkan/vulkan.h"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/include/vulkan/vulkan.h"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/vulkan/vulkan.h"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/include/vulkan/vulkan.h"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/vulkan/vulkan.h"
     found: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include/"
@@ -11091,12 +11091,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find-v1"
@@ -11173,9 +11173,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files (x86)/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/lib/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/lib/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/lib/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -11232,9 +11232,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files (x86)/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/lib/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/lib/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/lib/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -11291,9 +11291,9 @@ events:
       - "C:/Program Files (x86)/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/lib/"
-      - "C:/Program Files/GolaGameEngine/"
-      - "C:/Program Files/GolaGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/lib/"
+      - "C:/Program Files/FeooGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
       - "/bin/"
     found: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/lib/vulkan-1.lib"
     search_context:
@@ -11346,14 +11346,14 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files/GolaGameEngine/bin"
+        - "C:/Program Files/FeooGameEngine/bin"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin"
         - "/bin"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
@@ -11435,9 +11435,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -11496,9 +11496,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -11557,9 +11557,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.exe"
@@ -11735,15 +11735,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc"
@@ -11918,15 +11918,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslc"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslc.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslc.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslc"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslc.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslc.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslc"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslc"
@@ -11999,12 +11999,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find-v1"
@@ -12084,9 +12084,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -12145,9 +12145,9 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/sbin/"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/"
@@ -12206,9 +12206,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files/GolaGameEngine/bin/"
-      - "C:/Program Files/GolaGameEngine/sbin/"
-      - "C:/Program Files/GolaGameEngine/"
+      - "C:/Program Files/FeooGameEngine/bin/"
+      - "C:/Program Files/FeooGameEngine/sbin/"
+      - "C:/Program Files/FeooGameEngine/"
     searched_directories:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.exe"
@@ -12384,15 +12384,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/bin/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/sbin/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/GolaGameEngine/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/bin/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/sbin/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/Program Files/FeooGameEngine/glslangValidator"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator"
@@ -12567,15 +12567,15 @@ events:
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/bin/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/sbin/glslangValidator"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslangValidator.com"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslangValidator.exe"
-      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/GolaGameEngine/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/bin/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/sbin/glslangValidator"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslangValidator.com"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslangValidator.exe"
+      - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/Program Files/FeooGameEngine/glslangValidator"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.com"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator.exe"
       - "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/bin/glslangValidator"
@@ -12648,12 +12648,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "try_compile-v1"
@@ -12671,8 +12671,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-frqnhy"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-frqnhy"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12686,35 +12686,35 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-frqnhy'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-iubkos'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80da5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1d08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:17 PM.
+        Build started 4/13/2026 2:22:16 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\cmTC_80da5.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\Debug\\".
-          Creating directory "cmTC_80da5.dir\\Debug\\cmTC_80da5.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\Debug\\".
+          Creating directory "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_80da5.dir\\Debug\\cmTC_80da5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_80da5.dir\\Debug\\cmTC_80da5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c1d08.dir\\Debug\\cmTC_c1d08.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_80da5.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\src.cxx"
-        D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\cmTC_80da5.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\cmTC_80da5.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_c1d08.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx"
+        D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\cmTC_80da5.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-frqnhy\\cmTC_80da5.vcxproj]
+          D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\src.cxx(1,10): fatal  error : 'pthread.h' file not found [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iubkos\\cmTC_c1d08.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.23
+        Time Elapsed 00:00:00.21
         
       exitCode: 1
   -
@@ -12732,8 +12732,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-d668vz"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-d668vz"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12747,32 +12747,32 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-d668vz'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30efd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61024.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:18 PM.
+        Build started 4/13/2026 2:22:16 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\cmTC_30efd.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\Debug\\".
-          Creating directory "cmTC_30efd.dir\\Debug\\cmTC_30efd.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\Debug\\".
+          Creating directory "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_30efd.dir\\Debug\\cmTC_30efd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_30efd.dir\\Debug\\cmTC_30efd.tlog\\unsuccessfulbuild".
+          Creating "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_61024.dir\\Debug\\cmTC_61024.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_30efd.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_61024.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\Debug\\cmTC_30efd.exe" /INCREMENTAL pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-d668vz/Debug/cmTC_30efd.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-d668vz/Debug/cmTC_30efd.lib"   /machine:x64 cmTC_30efd.dir\\Debug\\CheckFunctionExists.obj
-        lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\cmTC_30efd.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\cmTC_30efd.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\Debug\\cmTC_61024.exe" /INCREMENTAL pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb/Debug/cmTC_61024.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-dkg8zb/Debug/cmTC_61024.lib"   /machine:x64 cmTC_61024.dir\\Debug\\CheckFunctionExists.obj
+        lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\cmTC_30efd.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj" (default target) (1) ->
         (Link target) -> 
-          lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-d668vz\\cmTC_30efd.vcxproj]
+          lld-link : error : could not open 'pthreads.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dkg8zb\\cmTC_61024.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -12795,8 +12795,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-5lqszg"
-      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-5lqszg"
+      source: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7"
+      binary: "D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
@@ -12810,32 +12810,32 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-5lqszg'
+        Change Dir: 'D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5b2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f14c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:18 PM.
+        Build started 4/13/2026 2:22:17 PM.
         
-        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\cmTC_e5b2d.vcxproj" on node 1 (default targets).
+        Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\Debug\\".
-          Creating directory "cmTC_e5b2d.dir\\Debug\\cmTC_e5b2d.tlog\\".
+          Creating directory "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\Debug\\".
+          Creating directory "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e5b2d.dir\\Debug\\cmTC_e5b2d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e5b2d.dir\\Debug\\cmTC_e5b2d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f14c3.dir\\Debug\\cmTC_f14c3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_e5b2d.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /std:c++latest /Fo"cmTC_f14c3.dir\\Debug\\\\" /TP --target=amd64-pc-windows-msvc  "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\Debug\\cmTC_e5b2d.exe" /INCREMENTAL pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-5lqszg/Debug/cmTC_e5b2d.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-5lqszg/Debug/cmTC_e5b2d.lib"   /machine:x64 cmTC_e5b2d.dir\\Debug\\CheckFunctionExists.obj
-        lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\cmTC_e5b2d.vcxproj]
-        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\cmTC_e5b2d.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\Debug\\cmTC_f14c3.exe" /INCREMENTAL pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7/Debug/cmTC_f14c3.pdb" /SUBSYSTEM:CONSOLE /IMPLIB:"D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/CMakeScratch/TryCompile-qu1fn7/Debug/cmTC_f14c3.lib"   /machine:x64 cmTC_f14c3.dir\\Debug\\CheckFunctionExists.obj
+        lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj]
+        Done Building Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\cmTC_e5b2d.vcxproj" (default target) (1) ->
+        "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj" (default target) (1) ->
         (Link target) -> 
-          lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5lqszg\\cmTC_e5b2d.vcxproj]
+          lld-link : error : could not open 'pthread.lib': no such file or directory [D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qu1fn7\\cmTC_f14c3.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -12954,12 +12954,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find_package-v1"
@@ -13072,12 +13072,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find_package-v1"
@@ -13192,12 +13192,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find_package-v1"
@@ -13314,12 +13314,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "find_package-v1"
@@ -13436,12 +13436,12 @@ events:
         - "C:\\Users\\dream\\AppData\\Roaming\\npm"
         - "C:\\tools\\dart-sdk\\bin"
         - "C:\\Users\\dream\\AppData\\Local\\Pub\\Cache\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/GolaGameEngine"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/FeooGameEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files/GolaGameEngine"
+        - "C:/Program Files/FeooGameEngine"
       CMAKE_FIND_ROOT_PATH: "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug;C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows"
   -
     kind: "try_compile-v1"
@@ -13466,7 +13466,7 @@ events:
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 4/13/2026 2:12:19 PM.
+        Build started 4/13/2026 2:22:18 PM.
         
         Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
         Project "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "D:\\CppProject\\GolaGameEngine\\out\\build\\clang-vcpkg-debug\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
@@ -13538,7 +13538,7 @@ events:
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.94
+        Time Elapsed 00:00:00.99
         
       exitCode: 0
 ...
