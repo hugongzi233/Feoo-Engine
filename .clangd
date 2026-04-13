@@ -1,0 +1,9 @@
+CompileFlags:
+  Compiler: C:/Program Files/LLVM/bin/clang++.exe
+  Add:
+    - -std=c++26
+    - -isystem
+    - C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include
+
+Diagnostics:
+  UnusedIncludes: None

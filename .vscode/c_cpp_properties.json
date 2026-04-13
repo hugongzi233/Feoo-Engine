@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win64-Clang-vcpkg",
+      "compilerPath": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin/clang-cl.exe",
+      "intelliSenseMode": "windows-clang-x64",
+      "cppStandard": "c++26",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include"
+      ],
+      "compileCommands": "${workspaceFolder}/compile_commands.json"
+    }
+  ]
+}

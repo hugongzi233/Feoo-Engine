@@ -1,0 +1,4 @@
+D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/ALL_BUILD.dir
+D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/ZERO_CHECK.dir

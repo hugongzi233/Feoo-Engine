@@ -3,7 +3,7 @@
 #include <stdexcept>
 #include <cassert>
 #include <cstring>
-#include <ostream>
+#include <print>
 
 namespace gola {
     GolaModel::GolaModel(GolaDevice &device, const std::vector<Vertex> &vertices)
@@ -21,7 +21,7 @@ namespace gola {
 
         assert(vertexCount >= 3 && "Vertex count must be greater than 2");
         VkDeviceSize bufferSize = sizeof(vertices[0]) * vertexCount;
-        std::print("[DEBUG] {} vertices, vertex buffer size: {}\n", vertexCount, bufferSize);
+        std::println("[DEBUG] {} vertices", vertexCount);
 
         device.createBuffer(
             bufferSize,

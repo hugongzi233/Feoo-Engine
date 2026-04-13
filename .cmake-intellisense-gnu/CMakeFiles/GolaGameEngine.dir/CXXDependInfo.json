@@ -1,0 +1,85 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+	"dir-cur-src" : "D:/CppProject/GolaGameEngine",
+	"dir-top-bld" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+	"dir-top-src" : "D:/CppProject/GolaGameEngine",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\dream\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir",
+	"sources" : 
+	{
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_camera.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_camera.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_device.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_device.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_model.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_model.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_pipeline.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_pipeline.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_renderer.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_renderer.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_swap_chain.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/gola_swap_chain.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/keyboard_movement_controller.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/keyboard_movement_controller.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Core/render_system.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Core/render_system.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/UI/gola_imgui.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/UI/gola_imgui.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/Window/gola_window.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/Window/gola_window.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/Engine/gola_app.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/Engine/gola_app.cpp"
+		},
+		"CMakeFiles/GolaGameEngine.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/CppProject/GolaGameEngine/main.cpp"
+		}
+	}
+}

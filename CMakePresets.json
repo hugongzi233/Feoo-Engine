@@ -1,0 +1,63 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 31,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "clang-vcpkg-debug",
+      "displayName": "Clang + vcpkg (Debug)",
+      "inherits": "base",
+      "toolset": "ClangCL",
+      "environment": {
+        "VCPKG_ROOT": "$env{USERPROFILE}/scoop/apps/vcpkg/current"
+      },
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{USERPROFILE}/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "VCPKG_MANIFEST_MODE": "OFF",
+        "GOLA_ENABLE_WARNINGS": "ON"
+      }
+    },
+    {
+      "name": "clang-vcpkg-release",
+      "displayName": "Clang + vcpkg (Release)",
+      "inherits": "base",
+      "toolset": "ClangCL",
+      "environment": {
+        "VCPKG_ROOT": "$env{USERPROFILE}/scoop/apps/vcpkg/current"
+      },
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{USERPROFILE}/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "VCPKG_MANIFEST_MODE": "OFF",
+        "GOLA_ENABLE_WARNINGS": "ON",
+        "GOLA_ENABLE_LTO": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-clang-debug",
+      "configurePreset": "clang-vcpkg-debug",
+      "configuration": "Debug"
+    },
+    {
+      "name": "build-clang-release",
+      "configurePreset": "clang-vcpkg-release",
+      "configuration": "Release"
+    }
+  ]
+}

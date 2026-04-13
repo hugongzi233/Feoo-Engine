@@ -4,16 +4,15 @@
 
 #include "gola_imgui.hpp"
 
-// Implementation-only includes
-#include <ostream>
+#include <print>
 
-#include "backends/imgui_impl_glfw.h"
-#include "backends/imgui_impl_vulkan.h"
+#include <imgui_impl_glfw.h>
+#include <imgui_impl_vulkan.h>
 
 #include <stdexcept>
 #include <vector>
 
-#include "glm.hpp"
+#include <glm/glm.hpp>
 
 // New includes for file-system font lookup and logging
 #include <filesystem>

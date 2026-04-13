@@ -31,6 +31,8 @@ namespace gola {
 
         void loadGameObjects();
 
+        void update(float deltaTime);
+
         GolaWindow window{WIDTH, HEIGHT, "Gola GameEngine Application"};
         GolaDevice device{window};
         GolaRenderer renderer{window, device};

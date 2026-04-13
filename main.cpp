@@ -2,7 +2,6 @@
 
 #include <cstdlib>
 #include <iostream>
-#include <stdexcept>
 #include <print>
 
 /// <summary>
@@ -10,6 +9,7 @@
 /// </summary>
 int main() {
 	std::cout.setf(std::ios::unitbuf);
+	std::cin.setf(std::ios::unitbuf);
 	gola::GolaApp app{};
 	try {
 		std::println("Application started.");

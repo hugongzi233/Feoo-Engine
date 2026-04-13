@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\CMakeFiles\_CMakeLTOTest-CXX\bin\CMakeFiles\f5e2f4b41cf358a9c477b5b22c120e31\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70D3458A-707D-3925-866B-EC6C1F37D56E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

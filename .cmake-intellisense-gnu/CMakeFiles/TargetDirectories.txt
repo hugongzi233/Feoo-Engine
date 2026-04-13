@@ -1,0 +1,3 @@
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/edit_cache.dir
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/rebuild_cache.dir

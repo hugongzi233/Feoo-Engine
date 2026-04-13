@@ -4,7 +4,7 @@
 #pragma once
 
 #include "imgui.h"
-#include "vec3.hpp"
+#include <glm/vec3.hpp>
 
 #include "../Core/gola_device.hpp"
 #include "../Core/gola_swap_chain.hpp"

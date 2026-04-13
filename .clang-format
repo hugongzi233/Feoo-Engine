@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 110
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Attach
+SortIncludes: CaseSensitive
+PointerAlignment: Left
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements

@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "configure-debug",
+      "type": "shell",
+      "command": "cmake --preset clang-vcpkg-debug --fresh",
+      "options": {
+        "env": {
+          "VCPKG_ROOT": "${env:USERPROFILE}/scoop/apps/vcpkg/current"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-debug",
+      "type": "shell",
+      "command": "cmake --build --preset build-clang-debug",
+      "dependsOn": [
+        "configure-debug"
+      ],
+      "dependsOrder": "sequence",
+      "options": {
+        "env": {
+          "VCPKG_ROOT": "${env:USERPROFILE}/scoop/apps/vcpkg/current"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$msCompile"
+      ]
+    },
+    {
+      "label": "run-debug-exe",
+      "type": "shell",
+      "command": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/GolaGameEngine.exe",
+      "dependsOn": [
+        "build-debug"
+      ],
+      "dependsOrder": "sequence",
+      "options": {
+        "env": {
+          "VCPKG_ROOT": "${env:USERPROFILE}/scoop/apps/vcpkg/current"
+        }
+      },
+      "problemMatcher": []
+    }
+  ]
+}

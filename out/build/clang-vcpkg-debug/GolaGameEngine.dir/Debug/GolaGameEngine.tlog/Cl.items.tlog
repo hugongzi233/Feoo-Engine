@@ -1,0 +1,12 @@
+D:\CppProject\GolaGameEngine\main.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\main.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_device.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_device.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_model.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_model.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_pipeline.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_pipeline.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_swap_chain.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_swap_chain.obj
+D:\CppProject\GolaGameEngine\Engine\Window\gola_window.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_window.obj
+D:\CppProject\GolaGameEngine\Engine\gola_app.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_app.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_renderer.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_renderer.obj
+D:\CppProject\GolaGameEngine\Engine\UI\gola_imgui.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_imgui.obj
+D:\CppProject\GolaGameEngine\Engine\Core\render_system.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\render_system.obj
+D:\CppProject\GolaGameEngine\Engine\Core\gola_camera.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\gola_camera.obj
+D:\CppProject\GolaGameEngine\Engine\Core\keyboard_movement_controller.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\GolaGameEngine.dir\Debug\keyboard_movement_controller.obj

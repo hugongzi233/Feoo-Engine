@@ -1,0 +1,10 @@
+^D:\CPPPROJECT\GOLAGAMEENGINE\OUT\BUILD\CLANG-VCPKG-DEBUG\CMAKEFILES\6B9D600A8D34B502585C23ABDA06CC66\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CppProject/GolaGameEngine -BD:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CppProject/GolaGameEngine/out/build/clang-vcpkg-debug/GolaGameEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

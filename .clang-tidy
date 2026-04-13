@@ -1,0 +1,17 @@
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  readability-*,
+  cppcoreguidelines-*
+WarningsAsErrors: ''
+HeaderFilterRegex: '^(Engine|main\\.cpp)'
+AnalyzeTemporaryDtors: false
+FormatStyle: none
+CheckOptions:
+  - key: modernize-use-trailing-return-type.TransformLambdas
+    value: '0'
+  - key: readability-identifier-naming.VariableCase
+    value: lower_case

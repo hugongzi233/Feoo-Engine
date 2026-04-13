@@ -1,0 +1,75 @@
+[
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\main.cpp.obj -c D:\\CppProject\\GolaGameEngine\\main.cpp",
+  "file": "D:/CppProject/GolaGameEngine/main.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_device.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_device.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_device.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_device.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_model.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_model.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_model.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_model.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_pipeline.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_pipeline.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_pipeline.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_pipeline.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_swap_chain.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_swap_chain.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_swap_chain.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_swap_chain.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Window\\gola_window.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Window\\gola_window.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Window/gola_window.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Window/gola_window.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\gola_app.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\gola_app.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/gola_app.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/gola_app.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_renderer.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_renderer.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_renderer.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_renderer.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\UI\\gola_imgui.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\UI\\gola_imgui.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/UI/gola_imgui.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/UI/gola_imgui.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\render_system.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\render_system.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/render_system.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/render_system.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\gola_camera.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\gola_camera.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/gola_camera.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/gola_camera.cpp.obj"
+},
+{
+  "directory": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -DGLFW_DLL -isystem C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include -O0 -std=c++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Wall -Wextra -Wpedantic -o CMakeFiles\\GolaGameEngine.dir\\Engine\\Core\\keyboard_movement_controller.cpp.obj -c D:\\CppProject\\GolaGameEngine\\Engine\\Core\\keyboard_movement_controller.cpp",
+  "file": "D:/CppProject/GolaGameEngine/Engine/Core/keyboard_movement_controller.cpp",
+  "output": "D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/GolaGameEngine.dir/Engine/Core/keyboard_movement_controller.cpp.obj"
+}
+]
+

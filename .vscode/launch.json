@@ -1,0 +1,21 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug GolaGameEngine (clang-cl)",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/out/build/clang-vcpkg-debug/Debug/GolaGameEngine.exe",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"preLaunchTask": "build-debug",
+			"environment": [
+				{
+					"name": "VCPKG_ROOT",
+					"value": "${env:USERPROFILE}/scoop/apps/vcpkg/current"
+				}
+			]
+		}
+	]
+}

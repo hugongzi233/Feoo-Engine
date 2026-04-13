@@ -1,0 +1,4 @@
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+D:/CppProject/GolaGameEngine/.cmake-intellisense-gnu/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
