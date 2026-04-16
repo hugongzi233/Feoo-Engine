@@ -1,0 +1,62 @@
+# Auto-generated material file for catgirl.obj
+newmtl body.002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/body_Base_color.png
+
+newmtl cloth.002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/cloth_Base_color.png
+
+newmtl eye.002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/eye_Base_color.png
+
+newmtl face.004
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/face_Base_color.png
+
+newmtl face.005
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/face_Base_color.png
+
+newmtl hair.002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 32.000000
+d 1.000000
+illum 2
+map_Kd catgirl/hair_Base_color.png
+
+newmtl line
+Ka 0.100000 0.100000 0.100000
+Kd 0.100000 0.100000 0.100000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+d 1.000000
+illum 1

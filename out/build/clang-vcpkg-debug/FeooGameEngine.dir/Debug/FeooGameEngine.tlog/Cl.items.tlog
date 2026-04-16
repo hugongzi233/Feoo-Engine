@@ -10,3 +10,8 @@ D:\CppProject\GolaGameEngine\Engine\UI\feoo_imgui.cpp;D:\CppProject\GolaGameEngi
 D:\CppProject\GolaGameEngine\Engine\Core\render_system.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\render_system.obj
 D:\CppProject\GolaGameEngine\Engine\Core\feoo_camera.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\feoo_camera.obj
 D:\CppProject\GolaGameEngine\Engine\Core\keyboard_movement_controller.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\keyboard_movement_controller.obj
+D:\CppProject\GolaGameEngine\Engine\Scripting\spin_models_script.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\spin_models_script.obj
+D:\CppProject\GolaGameEngine\Engine\Scripting\movement_script.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\movement_script.obj
+D:\CppProject\GolaGameEngine\Engine\Scripting\camera_script.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\camera_script.obj
+D:\CppProject\GolaGameEngine\Engine\Scene\scene_manager.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\scene_manager.obj
+D:\CppProject\GolaGameEngine\Engine\Core\scene_viewport_target.cpp;D:\CppProject\GolaGameEngine\out\build\clang-vcpkg-debug\FeooGameEngine.dir\Debug\scene_viewport_target.obj

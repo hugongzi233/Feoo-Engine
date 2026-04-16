@@ -106,6 +106,7 @@ C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensio
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/cmake/VulkanHeaders/VulkanHeadersConfig.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/cmake/VulkanHeaders/VulkanHeadersConfigVersion.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/glfw3/glfw3Config.cmake
@@ -121,6 +122,22 @@ C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/imgui/imgui-
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/imgui/imgui-targets-debug.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/imgui/imgui-targets-release.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/imgui/imgui-targets.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate/libdeflate-config-version.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate/libdeflate-config.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate/libdeflate-targets-debug.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate/libdeflate-targets-release.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate/libdeflate-targets.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/stb/FindStb.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/stb/vcpkg-cmake-wrapper.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader/tinyobjloader-config-version.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader/tinyobjloader-config.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader/tinyobjloader-targets-debug.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader/tinyobjloader-targets-release.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader/tinyobjloader-targets.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/unofficial-openfbx/unofficial-openfbxConfig.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/unofficial-openfbx/unofficial-openfbxTargets-debug.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/unofficial-openfbx/unofficial-openfbxTargets-release.cmake
+C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/unofficial-openfbx/unofficial-openfbxTargets.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/vk-bootstrap/vk-bootstrap-config.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/vk-bootstrap/vk-bootstrap-targets-debug.cmake
 C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/vk-bootstrap/vk-bootstrap-targets-release.cmake

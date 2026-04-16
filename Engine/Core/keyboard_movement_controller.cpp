@@ -4,8 +4,25 @@
 #include <limits>
 
 namespace feoo {
-    void KeyboardMovementController::moveInPlaneXZ(
-        GLFWwindow *window, float dt, FeooGameObject &gameObject) {
+    void KeyboardMovementController::moveInPlaneXZ(GLFWwindow *window, float dt, FeooGameObject &gameObject) {
+        moveInPlaneXZ(window, dt, gameObject.transform, true);
+    }
+
+    void KeyboardMovementController::moveInPlaneXZ(GLFWwindow *window, float dt, Transform &transform, bool enableInput) {
+        if (!enableInput) {
+            if (cursorCaptured) {
+                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+                if (glfwRawMouseMotionSupported()) {
+                    glfwSetInputMode(window, GLFW_RAW_MOUSE_MOTION, GLFW_FALSE);
+                }
+                cursorCaptured = false;
+                hasLastMousePosition = false;
+            }
+            escWasPressed = false;
+            leftMouseWasPressed = false;
+            return;
+        }
+
         if (!initialCaptureDone) {
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
             if (glfwRawMouseMotionSupported()) {
@@ -47,8 +64,8 @@ namespace feoo {
                 const float deltaX = static_cast<float>(mouseX - lastMouseX);
                 const float deltaY = static_cast<float>(mouseY - lastMouseY);
 
-                gameObject.transform.rotation.y += lookSpeed * deltaX;
-                gameObject.transform.rotation.x -= lookSpeed * deltaY;
+                transform.rotation.y += lookSpeed * deltaX;
+                transform.rotation.x -= lookSpeed * deltaY;
             }
 
             lastMouseX = mouseX;
@@ -57,10 +74,10 @@ namespace feoo {
         }
 
         // limit pitch values between about +/- 85ish degrees
-        gameObject.transform.rotation.x = glm::clamp(gameObject.transform.rotation.x, -1.5f, 1.5f);
-        gameObject.transform.rotation.y = glm::mod(gameObject.transform.rotation.y, glm::two_pi<float>());
+        transform.rotation.x = glm::clamp(transform.rotation.x, -1.5f, 1.5f);
+        transform.rotation.y = glm::mod(transform.rotation.y, glm::two_pi<float>());
 
-        float yaw = gameObject.transform.rotation.y;
+        float yaw = transform.rotation.y;
         const glm::vec3 forwardDir{sin(yaw), 0.f, cos(yaw)};
         const glm::vec3 rightDir{forwardDir.z, 0.f, -forwardDir.x};
         const glm::vec3 upDir{0.f, -1.f, 0.f};
@@ -74,7 +91,7 @@ namespace feoo {
         if (glfwGetKey(window, keys.moveDown) == GLFW_PRESS) moveDir -= upDir;
 
         if (glm::dot(moveDir, moveDir) > std::numeric_limits<float>::epsilon()) {
-            gameObject.transform.translation += moveSpeed * dt * glm::normalize(moveDir);
+            transform.translation += moveSpeed * dt * glm::normalize(moveDir);
         }
     }
 } // namespace feoo

@@ -37,6 +37,21 @@
     <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\keyboard_movement_controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Scripting\spin_models_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Scripting\movement_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Scripting\camera_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Scene\scene_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppProject\GolaGameEngine\Engine\Core\scene_viewport_target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\CppProject\GolaGameEngine\Engine\Core\feoo_game_object.hpp">

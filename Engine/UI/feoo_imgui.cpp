@@ -11,6 +11,8 @@
 
 #include <stdexcept>
 #include <vector>
+#include <utility>
+#include <algorithm>
 
 #include <glm/glm.hpp>
 
@@ -58,6 +60,7 @@ namespace feoo {
         ImGuiIO &io = ImGui::GetIO();
         (void) io;
         io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
+        io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
         //ImGui::StyleColorsDark();
         setupCustomFont();
         setupCustomStyle();
@@ -85,9 +88,6 @@ namespace feoo {
 
         ImGui_ImplVulkan_Init(&init_info);
 
-        // Upload Fonts - current backend creates fonts automatically on NewFrame but call manually to be safe
-        ImGui_ImplVulkan_SetMinImageCount(static_cast<uint32_t>(swapChain.imageCount()));
-
         std::println("Imgui initialized");
     }
 
@@ -101,12 +101,12 @@ namespace feoo {
         ImGuiIO &io = ImGui::GetIO();
 
         const std::string fontFileName = "AlibabaPuHuiTi-3-55-Regular.ttf";
-        const std::filesystem::path relativeFontPath = "Engine/Resource/Fonts";
+        const std::filesystem::path relativeFontPath = "Engine/Resources/Fonts";
 
         std::vector<std::filesystem::path> candidates;
 
         candidates.push_back(std::filesystem::current_path() / relativeFontPath / fontFileName);
-        candidates.push_back(std::filesystem::current_path() / "Resource/Fonts" / fontFileName);
+        candidates.push_back(std::filesystem::current_path() / "Resources/Fonts" / fontFileName);
 
         const std::filesystem::path windowsFallback = "C:/Windows/Fonts/msyh.ttc";
 
@@ -230,6 +230,39 @@ namespace feoo {
     }
 
     void FeooImgui::buildUI() {
+        sceneViewportFocused = sceneViewportInputActive;
+
+        ImGuiViewport *viewport = ImGui::GetMainViewport();
+
+        ImGui::BeginMainMenuBar();
+        ImGui::TextUnformatted("Feoo Editor");
+        ImGui::SameLine();
+        ImGui::Separator();
+        ImGui::SameLine();
+        ImGui::Text("Scene input: %s", sceneViewportInputActive ? "enabled" : "disabled");
+        ImGui::SameLine();
+        ImGui::Text("Viewport: %.0f x %.0f", sceneViewportSize.x, sceneViewportSize.y);
+        ImGui::EndMainMenuBar();
+
+        ImGuiWindowFlags hostWindowFlags = ImGuiWindowFlags_NoTitleBar |
+                                           ImGuiWindowFlags_NoCollapse |
+                                           ImGuiWindowFlags_NoResize |
+                                           ImGuiWindowFlags_NoMove |
+                                           ImGuiWindowFlags_NoBringToFrontOnFocus |
+                                           ImGuiWindowFlags_NoNavFocus |
+                                           ImGuiWindowFlags_MenuBar;
+
+        ImGui::SetNextWindowPos(viewport->Pos);
+        ImGui::SetNextWindowSize(viewport->Size);
+        ImGui::SetNextWindowViewport(viewport->ID);
+        ImGui::PushStyleVar(ImGuiStyleVar_WindowRounding, 0.0f);
+        ImGui::PushStyleVar(ImGuiStyleVar_WindowBorderSize, 0.0f);
+        ImGui::Begin("##FeooDockSpaceHost", nullptr, hostWindowFlags);
+        ImGui::PopStyleVar(2);
+
+        ImGuiID dockspaceId = ImGui::GetID("FeooDockSpace");
+        ImGui::DockSpace(dockspaceId, ImVec2(0.0f, 0.0f), ImGuiDockNodeFlags_PassthruCentralNode);
+
         // 1. Debug window
         ImGui::Begin("Debug Info");
         ImGui::Text("FPS: %.1f (%.3f ms/frame)", ImGui::GetIO().Framerate, 1000.0f / ImGui::GetIO().Framerate);
@@ -246,7 +279,45 @@ namespace feoo {
 
         // 3. Performance window
         ImGui::Begin("Performance", &showPerformanceWindow);
-        ImGui::Text("Performance graphs would go here测试");
+        ImGui::Text("测试");
+        ImGui::End();
+
+        if (customUiDrawCallback) {
+            customUiDrawCallback();
+        }
+
+        ImGui::SetNextWindowSize(ImVec2(900.0f, 600.0f), ImGuiCond_FirstUseEver);
+        ImGuiWindowFlags sceneWindowFlags = ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse;
+        ImGui::Begin("Scene View", nullptr, sceneWindowFlags);
+
+        sceneViewportFocused = sceneViewportInputActive;
+
+        const ImVec2 contentSize = ImGui::GetContentRegionAvail();
+        sceneViewportSize = contentSize;
+        ImGui::Text("Scene viewport size: %.0f x %.0f", contentSize.x, contentSize.y);
+        ImGui::TextUnformatted("Click this window to enable camera control.");
+        ImGui::TextUnformatted("Click other ImGui windows to release focus.");
+
+        bool sceneImageClicked = false;
+        if (sceneViewportTexture != 0 && contentSize.x > 1.0f && contentSize.y > 1.0f) {
+            ImGui::Image(sceneViewportTexture, contentSize);
+            sceneImageClicked = ImGui::IsItemClicked(ImGuiMouseButton_Left);
+            if (sceneImageClicked) {
+                sceneViewportInputActive = true;
+            }
+        } else {
+            ImGui::Dummy(ImVec2(contentSize.x, std::max(0.0f, contentSize.y - 48.0f)));
+        }
+
+        if (sceneViewportInputActive && ImGui::IsKeyPressed(ImGuiKey_Escape)) {
+            sceneViewportInputActive = false;
+        }
+
+        if (ImGui::IsMouseClicked(ImGuiMouseButton_Left) && !sceneImageClicked) {
+            sceneViewportInputActive = false;
+        }
+
+        ImGui::End();
         ImGui::End();
     }
 
@@ -273,5 +344,21 @@ namespace feoo {
 
     void FeooImgui::setDeltaTime(float deltaTime){
         this->deltaTime = deltaTime;
+    }
+
+    void FeooImgui::setCustomUiDrawCallback(std::function<void()> callback) {
+        customUiDrawCallback = std::move(callback);
+    }
+
+    void FeooImgui::setSceneViewportTexture(ImTextureID textureId) {
+        sceneViewportTexture = textureId;
+    }
+
+    void FeooImgui::setSceneViewportSize(ImVec2 size) {
+        sceneViewportSize = size;
+    }
+
+    void FeooImgui::setSceneViewportInputActive(bool active) {
+        sceneViewportInputActive = active;
     }
 }

@@ -1,39 +1,53 @@
 #include "feoo_app.hpp"
-#include "Core/feoo_game_object.hpp"
+#include "Scripting/camera_script.hpp"
+#include "Scripting/movement_script.hpp"
+#include "Scripting/spin_models_script.hpp"
+
+#include <imgui_impl_vulkan.h>
 
 #define GLM_FORCE_RADIANS
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
 #include <glm/glm.hpp>
-#include <glm/gtc/constants.hpp>
 
 #include <chrono>
-#include <iostream>
-#include <thread>
-
-#include "Core/render_system.hpp"
-#include "Core/feoo_camera.hpp"
-#include "Core/keyboard_movement_controller.hpp"
+#include <algorithm>
+#include <cstdint>
+#include <memory>
+#include <utility>
 
 namespace feoo {
-    FeooApp::FeooApp() {
-        
-    }
+    FeooApp::FeooApp() = default;
 
     FeooApp::~FeooApp() {
+        ScriptContext shutdownContext{
+            device,
+            window,
+            renderer,
+            camera,
+            gameobjects,
+            false,
+            VK_NULL_HANDLE};
+        sceneManager.unloadScene(shutdownContext);
+
+        if (imgui) {
+            vkDeviceWaitIdle(device.device());
+            imgui->cleanup();
+            imgui.reset();
+        }
     }
 
     void FeooApp::run() {
-        loadGameObjects();
         initImgui();
         RenderSystem renderSystem(device, renderer.getSwapChainRenderPass(), imgui.get());
+        initSceneViewport();
+        initScene(renderSystem);
 
-        FeooCamera camera{};
-        auto viewObject = FeooGameObject::createGameObject();
-        KeyboardMovementController cameraController{};
+        imgui->setCustomUiDrawCallback([this, &renderSystem]() {
+            drawSceneManagerUi(renderSystem);
+        });
 
         auto currentTime = std::chrono::high_resolution_clock::now();
 
-        // 主循环逻辑
         while (!window.shouldClose()) {
             glfwPollEvents();
 
@@ -42,19 +56,15 @@ namespace feoo {
                     std::chrono::duration<float>(newTime - currentTime).count();
             currentTime = newTime;
             frameTime = glm::min(frameTime, 60.f / 1000.f);
-            update(frameTime);
-            
-            cameraController.moveInPlaneXZ(window.getGLFWwindow(), frameTime, viewObject);
-            camera.setViewYXZ(viewObject.transform.translation,viewObject.transform.rotation);
-
-            float aspect = renderer.getAspectRatio();
-            // camera.setOrthographicProjection(-aspect, aspect, -1, 1, -1, 1);
-            camera.setPerspectiveProjection(glm::radians(50.f), aspect, 0.1f, 10000.f);
+            updateScene(frameTime, renderSystem);
 
             if (auto commandBuffer = renderer.beginFrame()) {
+                imgui->newFrame();
+                imgui->buildUI();
+
+                renderSceneViewport(commandBuffer);
                 renderer.beginSwapChainRenderPass(commandBuffer);
-                renderSystem.renderGameObjects(commandBuffer, gameobjects, camera);
-                renderSystem.renderImgui(commandBuffer);
+                imgui->render(commandBuffer);
 
                 renderer.endSwapChainRenderPass(commandBuffer);
                 renderer.endFrame();
@@ -64,78 +74,98 @@ namespace feoo {
         vkDeviceWaitIdle(device.device());
     }
 
-    void FeooApp::update(float deltaTime) {
+    ScriptContext FeooApp::buildScriptContext(const RenderSystem &renderSystem) {
+        return ScriptContext{
+            device,
+            window,
+            renderer,
+            camera,
+            gameobjects,
+            imgui ? imgui->isSceneViewportFocused() : false,
+            renderSystem.getTextureSetLayout()};
+    }
+
+    void FeooApp::updateScene(float deltaTime, const RenderSystem &renderSystem) {
         imgui.get()->setDeltaTime(deltaTime);
-        float offset = 1.5f;
-        for (auto &obj: gameobjects) {
-            obj.transform.rotation.z += deltaTime * offset;
-            offset+=1.0f;
-            obj.transform.rotation.x += deltaTime * (offset-1.0f);
+
+        auto context = buildScriptContext(renderSystem);
+        sceneManager.update(deltaTime, context);
+    }
+
+    void FeooApp::initSceneViewport() {
+        const auto depthFormat = renderer.getSwapChain().findDepthFormat();
+        const auto initialSize = imgui ? imgui->getSceneViewportSize() : ImVec2(900.0f, 600.0f);
+        const VkExtent2D initialExtent{
+            static_cast<uint32_t>(std::max(1.0f, initialSize.x)),
+            static_cast<uint32_t>(std::max(1.0f, initialSize.y))};
+
+        sceneViewportTarget = std::make_unique<SceneViewportTarget>(
+            device,
+            VK_FORMAT_R8G8B8A8_SRGB,
+            depthFormat,
+            initialExtent);
+
+        sceneRenderSystem = std::make_unique<RenderSystem>(
+            device,
+            sceneViewportTarget->getRenderPass(),
+            imgui.get());
+    }
+
+    void FeooApp::renderSceneViewport(VkCommandBuffer commandBuffer) {
+        if (!sceneViewportTarget || !sceneRenderSystem) {
+            return;
+        }
+
+        const ImVec2 requestedSize = imgui ? imgui->getSceneViewportSize() : ImVec2(900.0f, 600.0f);
+        const VkExtent2D viewportExtent{
+            static_cast<uint32_t>(std::max(1.0f, requestedSize.x)),
+            static_cast<uint32_t>(std::max(1.0f, requestedSize.y))};
+
+        sceneViewportTarget->resize(viewportExtent);
+        sceneViewportTarget->beginRenderPass(commandBuffer);
+        sceneRenderSystem->renderGameObjects(commandBuffer, gameobjects, camera);
+        sceneViewportTarget->endRenderPass(commandBuffer);
+
+        imgui->setSceneViewportTexture(static_cast<ImTextureID>(reinterpret_cast<uintptr_t>(sceneViewportTarget->getDescriptorSet())));
+        imgui->setSceneViewportSize(ImVec2(static_cast<float>(viewportExtent.width), static_cast<float>(viewportExtent.height)));
+    }
+
+    void FeooApp::initScene(const RenderSystem &renderSystem) {
+        sceneManager.setScriptFactory([this](const std::string &scriptName) {
+            return createScriptByName(scriptName);
+        });
+
+        auto context = buildScriptContext(renderSystem);
+
+        if (!sceneManager.loadScene("default.scene", context)) {
+            sceneManager.createNewScene("default.scene", context);
+            sceneManager.saveScene("default.scene");
         }
     }
 
-    std::unique_ptr<FeooModel> createCubeModel(FeooDevice &device, glm::vec3 offset) {
-        std::vector<FeooModel::Vertex> vertices = {
-            // left face (white)
-            {{-0.5f, -0.5f, -0.5f}, {1.0f, 1.0f, 1.0f}},
-            {{-0.5f, 0.5f, 0.5f}, {1.0f, 1.0f, 1.0f}},
-            {{-0.5f, -0.5f, 0.5f}, {1.0f, 1.0f, 1.0f}},
-            {{-0.5f, 0.5f, 0.5f}, {1.0f, 1.0f, 1.0f}},
-            {{-0.5f, -0.5f, -0.5f}, {1.0f, 1.0f, 1.0f}},
-            {{-0.5f, 0.5f, -0.5f}, {1.0f, 1.0f, 1.0f}},
-            // right face (yellow)
-            {{0.5f, -0.5f, -0.5f}, {1.0f, 1.0f, 0.0f}},
-            {{0.5f, 0.5f, 0.5f}, {1.0f, 1.0f, 0.0f}},
-            {{0.5f, 0.5f, -0.5f}, {1.0f, 1.0f, 0.0f}},
-            {{0.5f, 0.5f, 0.5f}, {1.0f, 1.0f, 0.0f}},
-            {{0.5f, -0.5f, -0.5f}, {1.0f, 1.0f, 0.0f}},
-            {{0.5f, -0.5f, 0.5f}, {1.0f, 1.0f, 0.0f}},
-            // top face (blue)
-            {{-0.5f, 0.5f, -0.5f}, {0.0f, 0.0f, 1.0f}},
-            {{0.5f, 0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}},
-            {{-0.5f, 0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}},
-            {{0.5f, 0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}},
-            {{-0.5f, 0.5f, -0.5f}, {0.0f, 0.0f, 1.0f}},
-            {{0.5f, 0.5f, -0.5f}, {0.0f, 0.0f, 1.0f}},
-            // bottom face (green)
-            {{-0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 0.0f}},
-            {{0.5f, -0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},
-            {{0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 0.0f}},
-            {{0.5f, -0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},
-            {{-0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 0.0f}},
-            {{-0.5f, -0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},
-            // front face (red)
-            {{-0.5f, -0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            {{0.5f, 0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            {{0.5f, -0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            {{0.5f, 0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            {{-0.5f, -0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            {{-0.5f, 0.5f, 0.5f}, {1.0f, 0.0f, 0.0f}},
-            // back face (cyan)
-            {{-0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-            {{0.5f, 0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-            {{-0.5f, 0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-            {{0.5f, 0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-            {{-0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-            {{0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 1.0f}},
-        };
-        for (auto &v: vertices) {
-            v.position += offset;
-        }
-
-        return std::make_unique<FeooModel>(device, vertices);
+    void FeooApp::drawSceneManagerUi(const RenderSystem &renderSystem) {
+        auto context = buildScriptContext(renderSystem);
+        sceneManager.drawImGui(context);
     }
 
-    void FeooApp::loadGameObjects() {
-        std::shared_ptr<FeooModel> cubeModel = createCubeModel(device, glm::vec3(0.0f, 0.0f, 0.0f));
-
-        for (int i = 0; i < 5; i++) {
-            auto gameObject = FeooGameObject::createGameObject();
-            gameObject.model = cubeModel;
-            gameObject.transform.translation = glm::vec3(static_cast<float>(i), 0.0f, 2.5f);
-            gameObject.transform.scale = glm::vec3(0.5f, 0.5f, 0.5f);
-            gameobjects.push_back(std::move(gameObject));
+    std::unique_ptr<FeooScript> FeooApp::createScriptByName(const std::string &scriptName) const {
+        if (scriptName == "FuseeRotationScript") {
+            return std::make_unique<FuseeRotationScript>();
         }
+        if (scriptName == "CatgirlRotationScript") {
+            return std::make_unique<CatgirlRotationScript>();
+        }
+        if (scriptName == "SpinModelsScript") {
+            return std::make_unique<SpinModelsScript>();
+        }
+        if (scriptName == "MovementScript") {
+            return std::make_unique<MovementScript>();
+        }
+        if (scriptName == "CameraScript") {
+            return std::make_unique<CameraScript>();
+        }
+
+        return nullptr;
     }
 
     void FeooApp::initImgui() {

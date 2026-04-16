@@ -209,6 +209,9 @@ GOLA_ENABLE_SANITIZERS:BOOL=OFF
 //Enable strict compiler warnings
 GOLA_ENABLE_WARNINGS:BOOL=ON
 
+//Path to a file.
+Stb_INCLUDE_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include
+
 //Automatically copy dependencies into the output directory for
 // executables.
 VCPKG_APPLOCAL_DEPS:BOOL=ON
@@ -278,6 +281,15 @@ glm_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share
 
 //The directory containing a CMake configuration file for imgui.
 imgui_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/imgui
+
+//The directory containing a CMake configuration file for libdeflate.
+libdeflate_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/libdeflate
+
+//The directory containing a CMake configuration file for tinyobjloader.
+tinyobjloader_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/tinyobjloader
+
+//The directory containing a CMake configuration file for unofficial-openfbx.
+unofficial-openfbx_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/unofficial-openfbx
 
 //The directory containing a CMake configuration file for vk-bootstrap.
 vk-bootstrap_DIR:PATH=C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/share/vk-bootstrap
@@ -419,10 +431,14 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Stb
+FIND_PACKAGE_MESSAGE_DETAILS_Stb:INTERNAL=[C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Vulkan
 FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/debug/lib/vulkan-1.lib][C:/Users/dream/scoop/apps/vcpkg/current/installed/x64-windows/include][found components: glslc glslangValidator ][v1.4.341()]
+//ADVANCED property for variable: Stb_INCLUDE_DIR
+Stb_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md

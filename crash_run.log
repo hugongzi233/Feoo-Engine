@@ -1,0 +1,906 @@
+Present mode: Fast V-Sync
+Application started.
+Loaded ImGui font: D:\CppProject\GolaGameEngine\Engine/Resources/Fonts\AlibabaPuHuiTi-3-55-Regular.ttf
+Imgui initialized
+Present mode: Fast V-Sync
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0xec00000000ec that is currently in use by VkDescriptorSet 0x1340000000134.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xe300000000e3 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xe500000000e5 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0xf600000000f6 that is currently in use by VkDescriptorSet 0x1350000000135.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xed00000000ed that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xef00000000ef that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x1000000000100 that is currently in use by VkDescriptorSet 0x1360000000136.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xf700000000f7 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0xf900000000f9 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x10a000000010a that is currently in use by VkDescriptorSet 0x1370000000137.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0x1010000000101 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0x1030000000103 that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x1140000000114 that is currently in use by VkDescriptorSet 0x1380000000138.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+vkDestroyBuffer(): can't be called on VkBuffer 0x10b000000010b that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroyBuffer-buffer-00922
+(Warning - This VUID has now been reported 10 times, which is the duplicate_message_limit value, this will be the last time reporting it).
+vkDestroyBuffer(): can't be called on VkBuffer 0x10d000000010d that is currently in use by VkCommandBuffer 0x1980e41e360.
+The Vulkan spec states: All submitted commands that refer to buffer, either directly or via a VkBufferView, must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/resources.html#VUID-vkDestroyBuffer-buffer-00922)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x11e000000011e that is currently in use by VkDescriptorSet 0x1390000000139.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x1280000000128 that is currently in use by VkDescriptorSet 0x13a000000013a.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkDestroySampler-sampler-01082
+vkDestroySampler(): sampler can't be called on VkSampler 0x1320000000132 that is currently in use by VkDescriptorSet 0x13b000000013b.
+The Vulkan spec states: All submitted commands that refer to sampler must have completed execution (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/samplers.html#VUID-vkDestroySampler-sampler-01082)
+[ERROR: Validation] - VUID-vkCmdBindPipeline-commandBuffer-recording
+vkCmdBindPipeline(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/pipelines.html#VUID-vkCmdBindPipeline-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdBindVertexBuffers-commandBuffer-recording
+vkCmdBindVertexBuffers(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fxvertex.html#VUID-vkCmdBindVertexBuffers-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdBindIndexBuffer-commandBuffer-recording
+vkCmdBindIndexBuffer(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdBindIndexBuffer-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetViewport-commandBuffer-recording
+vkCmdSetViewport(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/vertexpostproc.html#VUID-vkCmdSetViewport-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdPushConstants-commandBuffer-recording
+vkCmdPushConstants(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/descriptorsets.html#VUID-vkCmdPushConstants-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdPushConstants-commandBuffer-recording
+vkCmdPushConstants(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/descriptorsets.html#VUID-vkCmdPushConstants-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdBindDescriptorSets-commandBuffer-recording
+vkCmdBindDescriptorSets(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/descriptorsets.html#VUID-vkCmdBindDescriptorSets-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdSetScissor-commandBuffer-recording
+(Warning - This VUID has now been reported 10 times, which is the duplicate_message_limit value, this will be the last time reporting it).
+vkCmdSetScissor(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/fragops.html#VUID-vkCmdSetScissor-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdDrawIndexed-commandBuffer-recording
+(Warning - This VUID has now been reported 10 times, which is the duplicate_message_limit value, this will be the last time reporting it).
+vkCmdDrawIndexed(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdBindDescriptorSets-commandBuffer-recording
+vkCmdBindDescriptorSets(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/descriptorsets.html#VUID-vkCmdBindDescriptorSets-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdBindDescriptorSets-commandBuffer-recording
+vkCmdBindDescriptorSets(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/descriptorsets.html#VUID-vkCmdBindDescriptorSets-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkCmdEndRenderPass-commandBuffer-recording
+vkCmdEndRenderPass(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+An error occurred: failed to submit draw command buffer!
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/renderpass.html#VUID-vkCmdEndRenderPass-commandBuffer-recording)
+[ERROR: Validation] - VUID-vkEndCommandBuffer-commandBuffer-00059
+vkEndCommandBuffer(): was called in VkCommandBuffer 0x1980e451d50 which is now in an invalid state (instead of recording state) because the following objects bound to the command buffer were invalidated
+ VkBuffer 0xef00000000ef was destroy
+ VkBuffer 0xf900000000f9 was destroy
+ VkBuffer 0xe500000000e5 was destroy
+ VkBuffer 0x10d000000010d was destroy
+ VkBuffer 0xed00000000ed was destroy
+ VkBuffer 0x1030000000103 was destroy
+ VkSampler 0x11e000000011e was destroy
+ VkBuffer 0x1150000000115 was destroy
+ VkSampler 0xec00000000ec was destroy
+ VkBuffer 0x11f000000011f was destroy
+ VkBuffer 0xe300000000e3 was destroy
+ VkBuffer 0x1210000000121 was destroy
+ VkBuffer 0x12b000000012b was destroy
+ VkBuffer 0x10b000000010b was destroy
+ VkSampler 0x1140000000114 was destroy
+ VkBuffer 0x1290000000129 was destroy
+ VkSampler 0x1320000000132 was destroy
+ VkSampler 0x1000000000100 was destroy
+ VkSampler 0x1280000000128 was destroy
+ VkBuffer 0x1010000000101 was destroy
+ VkSampler 0x10a000000010a was destroy
+ VkBuffer 0x1170000000117 was destroy
+ VkSampler 0xf600000000f6 was destroy
+ VkBuffer 0xf700000000f7 was destroy
+The Vulkan spec states: commandBuffer must be in the recording state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/cmdbuffers.html#VUID-vkEndCommandBuffer-commandBuffer-00059)
+[ERROR: Validation] - VUID-vkFreeCommandBuffers-pCommandBuffers-00047
+vkFreeCommandBuffers(): pCommandBuffers[0] (VkCommandBuffer 0x1980e41e360) is in use.
+The Vulkan spec states: All elements of pCommandBuffers must not be in the pending state (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/cmdbuffers.html#VUID-vkFreeCommandBuffers-pCommandBuffers-00047)
+[ERROR: Validation] - VUID-vkDestroyDevice-device-05137
+vkDestroyDevice(): Object Tracking - For VkDevice 0x1980b6778d0, VkSampler 0x370000000037 has not been destroyed.
+The Vulkan spec states: All child objects created on device that can be destroyed or freed must have been destroyed or freed prior to destroying device (https://vulkan.lunarg.com/doc/view/1.4.328.1/windows/antora/spec/latest/chapters/devsandqueues.html#VUID-vkDestroyDevice-device-05137)

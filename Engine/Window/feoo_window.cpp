@@ -20,7 +20,6 @@ namespace feoo {
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
         window = glfwCreateWindow(width, height, windowTitle.c_str(), nullptr, nullptr);
-        glfwSetWindowAspectRatio(window, width, height);
         glfwSetWindowUserPointer(window, this);
         glfwSetFramebufferSizeCallback(window, framebufferResizeCallback);
         if (!window) {

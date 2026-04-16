@@ -31,7 +31,11 @@ namespace feoo {
 
         void renderImgui(VkCommandBuffer commandBuffer);
 
+        VkDescriptorSetLayout getTextureSetLayout() const { return textureSetLayout; }
+
     private:
+        void createTextureSetLayout();
+
         void createPipelineLayout();
 
         void createPipeline(VkRenderPass renderPass);
@@ -39,6 +43,7 @@ namespace feoo {
         FeooDevice &feooDevice;
 
         std::unique_ptr<FeooPipeline> feooPipeline;
+        VkDescriptorSetLayout textureSetLayout;
         VkPipelineLayout pipelineLayout;
         FeooImgui *imgui = nullptr;
     };

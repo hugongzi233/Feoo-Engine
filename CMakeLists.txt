@@ -24,11 +24,19 @@ add_executable(FeooGameEngine
                 Engine/Core/render_system.cpp
                 Engine/Core/feoo_camera.cpp
                 Engine/Core/keyboard_movement_controller.cpp
+                Engine/Scripting/spin_models_script.cpp
+                Engine/Scripting/movement_script.cpp
+                Engine/Scripting/camera_script.cpp
+                Engine/Scene/scene_manager.cpp
+                Engine/Core/scene_viewport_target.cpp
 )
 
 find_package(Vulkan REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
+find_package(unofficial-openfbx CONFIG REQUIRED)
+find_package(tinyobjloader CONFIG REQUIRED)
+find_package(Stb REQUIRED)
 find_package(vk-bootstrap CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 
@@ -47,11 +55,15 @@ target_link_libraries(FeooGameEngine
                 PRIVATE
                 Vulkan::Vulkan
                 glm::glm
+                tinyobjloader::tinyobjloader
                 vk-bootstrap::vk-bootstrap
 )
 
+target_include_directories(FeooGameEngine PRIVATE ${Stb_INCLUDE_DIR})
+
 feoo_link_first_available_target(FeooGameEngine glfw glfw3::glfw glfw3)
 feoo_link_first_available_target(FeooGameEngine imgui::imgui imgui)
+feoo_link_first_available_target(FeooGameEngine unoffical::openfbx::openfbx unofficial::openfbx::openfbx openfbx)
 
 if (GOLA_ENABLE_WARNINGS)
         if (MSVC OR CMAKE_CXX_COMPILER_FRONTEND_VARIANT STREQUAL "MSVC")

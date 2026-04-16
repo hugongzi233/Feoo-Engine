@@ -1,0 +1,22 @@
+object "FuseeModel"
+enabled 1
+translation -5 0 0
+rotation 0 0 0
+scale 1.75 1.75 1.75
+script "FuseeRotationScript"
+end_object
+object "CatgirlModel"
+enabled 1
+translation 5 0 0
+rotation 0 0 0
+scale 1.75 1.75 1.75
+script "CatgirlRotationScript"
+end_object
+object "PlayerController"
+enabled 1
+translation 0 0 -12
+rotation 0 0 0
+scale 1 1 1
+script "MovementScript"
+script "CameraScript"
+end_object

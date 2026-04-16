@@ -59,8 +59,6 @@ namespace feoo {
 
         FeooGameObject(FeooGameObject &&) = default;
 
-        FeooGameObject &operator=(FeooGameObject &&) = default;
-
         id_t getId() const {
             return id;
         }
@@ -68,7 +66,7 @@ namespace feoo {
         const id_t id;
         std::shared_ptr<FeooModel> model;
 
-        glm::vec3 color;
+        glm::vec3 color{1.0f, 1.0f, 1.0f};
         Transform transform;
 
     private:

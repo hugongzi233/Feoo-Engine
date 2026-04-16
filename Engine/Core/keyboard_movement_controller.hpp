@@ -19,6 +19,7 @@ namespace feoo {
             int lookDown = GLFW_KEY_DOWN;
         };
 
+        void moveInPlaneXZ(GLFWwindow *window, float dt, Transform &transform, bool enableInput = true);
         void moveInPlaneXZ(GLFWwindow *window, float dt, FeooGameObject &gameObject);
 
         KeyMappings keys{};

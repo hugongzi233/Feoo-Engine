@@ -4,13 +4,17 @@
   "dependencies": [
     "glfw3",
     "glm",
+    "openfbx",
+    "tinyobjloader",
     "vulkan",
+    "stb",
     "vk-bootstrap",
     {
       "name": "imgui",
       "features": [
         "glfw-binding",
-        "vulkan-binding"
+        "vulkan-binding",
+        "docking-experimental"
       ]
     }
   ]

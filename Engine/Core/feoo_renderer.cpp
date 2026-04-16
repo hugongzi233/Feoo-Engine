@@ -90,12 +90,13 @@ namespace feoo {
         }
 
         auto result = feooSwapChain->submitCommandBuffers(&commandBuffer, &currentImageIndex);
-        if (result == VK_ERROR_OUT_OF_DATE_KHR || result == VK_SUBOPTIMAL_KHR ||
-            feooWindow.wasWindowResized()) {
+        if (result == VK_ERROR_OUT_OF_DATE_KHR || result == VK_SUBOPTIMAL_KHR) {
             feooWindow.resetWindowResizedFlag();
             recreateSwapChain();
         } else if (result != VK_SUCCESS) {
             throw std::runtime_error("failed to present swap chain image!");
+        } else if (feooWindow.wasWindowResized()) {
+            feooWindow.resetWindowResizedFlag();
         }
 
         isFrameStarted = false;

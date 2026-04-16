@@ -14,21 +14,43 @@
 namespace feoo {
     struct SimplePushConstantData {
         glm::mat4 transform{1.0f};
-        alignas(16) glm::vec3 color;
+        alignas(16) glm::vec3 color{1.0f, 1.0f, 1.0f};
     };
 
     RenderSystem::RenderSystem(
         FeooDevice &device, VkRenderPass renderPass, FeooImgui *imguiPtr)
         : feooDevice{device}, imgui{imguiPtr} {
+        createTextureSetLayout();
         createPipelineLayout();
         createPipeline(renderPass);
     }
 
     RenderSystem::~RenderSystem() {
         vkDestroyPipelineLayout(feooDevice.device(), pipelineLayout, nullptr);
+        vkDestroyDescriptorSetLayout(feooDevice.device(), textureSetLayout, nullptr);
+    }
+
+    void RenderSystem::createTextureSetLayout() {
+        VkDescriptorSetLayoutBinding textureBinding{};
+        textureBinding.binding = 0;
+        textureBinding.descriptorCount = 1;
+        textureBinding.descriptorType = VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER;
+        textureBinding.pImmutableSamplers = nullptr;
+        textureBinding.stageFlags = VK_SHADER_STAGE_FRAGMENT_BIT;
+
+        VkDescriptorSetLayoutCreateInfo layoutInfo{};
+        layoutInfo.sType = VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO;
+        layoutInfo.bindingCount = 1;
+        layoutInfo.pBindings = &textureBinding;
+
+        if (vkCreateDescriptorSetLayout(feooDevice.device(), &layoutInfo, nullptr, &textureSetLayout) != VK_SUCCESS) {
+            throw std::runtime_error("failed to create texture descriptor set layout!");
+        }
     }
 
     void RenderSystem::createPipelineLayout() {
+        VkDescriptorSetLayout setLayouts[] = {textureSetLayout};
+
         VkPushConstantRange pushConstantRange{};
         pushConstantRange.stageFlags = VK_SHADER_STAGE_VERTEX_BIT | VK_SHADER_STAGE_FRAGMENT_BIT;
         pushConstantRange.offset = 0;
@@ -36,8 +58,8 @@ namespace feoo {
 
         VkPipelineLayoutCreateInfo pipelineLayoutInfo{};
         pipelineLayoutInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO;
-        pipelineLayoutInfo.setLayoutCount = 0;
-        pipelineLayoutInfo.pSetLayouts = nullptr;
+        pipelineLayoutInfo.setLayoutCount = 1;
+        pipelineLayoutInfo.pSetLayouts = setLayouts;
         pipelineLayoutInfo.pushConstantRangeCount = 1;
         pipelineLayoutInfo.pPushConstantRanges = &pushConstantRange;
         if (vkCreatePipelineLayout(feooDevice.device(), &pipelineLayoutInfo, nullptr, &pipelineLayout) !=
@@ -68,6 +90,10 @@ namespace feoo {
         auto projectionView = camera.getProjection() * camera.getView();
 
         for (auto &obj: gameObjects) {
+            if (!obj.model) {
+                continue;
+            }
+
             SimplePushConstantData push{};
             push.color = obj.color;
             push.transform = projectionView * obj.transform.mat4();
@@ -80,8 +106,7 @@ namespace feoo {
                 sizeof(SimplePushConstantData),
                 &push);
 
-            obj.model->bind(commandBuffer);
-            obj.model->draw(commandBuffer);
+            obj.model->draw(commandBuffer, pipelineLayout);
         }
     }
 

@@ -5,6 +5,7 @@
 
 #include "imgui.h"
 #include <glm/vec3.hpp>
+#include <functional>
 
 #include "../Core/feoo_device.hpp"
 #include "../Core/feoo_swap_chain.hpp"
@@ -44,6 +45,15 @@ namespace feoo {
 
         void setDeltaTime(float deltaTime);
 
+        void setCustomUiDrawCallback(std::function<void()> callback);
+
+        void setSceneViewportTexture(ImTextureID textureId);
+        void setSceneViewportSize(ImVec2 size);
+        void setSceneViewportInputActive(bool active);
+
+        bool isSceneViewportFocused() const { return sceneViewportFocused; }
+        ImVec2 getSceneViewportSize() const { return sceneViewportSize; }
+
     private:
         void createDescriptorPool(VkDevice device);
 
@@ -57,5 +67,10 @@ namespace feoo {
         float mainColor[3] = {0.1f, 0.1f, 0.1f};
         bool vsyncEnabled = true;
         bool showPerformanceWindow = true;
+        bool sceneViewportFocused = false;
+        bool sceneViewportInputActive = false;
+        ImVec2 sceneViewportSize = ImVec2(900.0f, 600.0f);
+        ImTextureID sceneViewportTexture = 0;
+        std::function<void()> customUiDrawCallback;
     };
 }
